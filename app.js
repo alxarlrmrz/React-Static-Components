@@ -3,13 +3,11 @@ class Sidebar extends React.Component {
         return (
             <div className="sidebar">
                 <h3>Dashboard</h3>
-                <ul>
-                    <li>Widget</li>
-                    <li>Reviews</li>
-                    <li>Customers</li>
-                    <li>Online Analysis</li>
-                    <li>Settings</li>
-                </ul>
+                <h3>Widget</h3>
+                <h3>Reviews</h3>
+                <h3>Customers</h3>
+                <h3>Online Analysis</h3>
+                <h3>Settings</h3>
             </div>
         )
     }

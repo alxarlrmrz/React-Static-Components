@@ -28,12 +28,12 @@ body {
 .app {
     height: 100%;
     width: 100%;
-    /* display: flex;
+    display: flex;
     flex-basis: 60%;
     display: grid;
     grid-template-columns: 15vw 15vw 15vw 15vw;
     grid-template-rows: 15vw 15vw;
-    color: var(--text); */
+    color: var(--text);
     justify-items: stretch;
     justify-content: center;
 }
@@ -60,31 +60,51 @@ ul {
 }
 
 .content {
+    background-color: lightgray;
+    margin-top: 8%;
     display: flex;
     width: 65%;
     height: 100%;
     flex-direction: column;
-    background-color: var(--tiles);
+    /* padding-left: 30px; */
 }
 
 .stats {
     height: 50%;
+    width:90%;
     display: inline-flex;
     justify-content: space-around;
 }
 
-/* .reviews {
-
+.reviews {
+    background-color: gray;
+    border: 2px solid white;
+    width: 200px;
+    height: 200px;
+    justify-content: space-between;
 }
 
 .avgrating {
-
+    background-color: gray;
+    border: 2px solid white;
+    width: 200px;
+    height: 200px;
+    justify-content: space-between;
 }
 
 .sentan {
-
-} */
+    background-color: gray;
+    border: 2px solid white;
+    width: 200px;
+    height: 200px;
+    justify-content: space-between;
+}
 
 .webVisitors {
-    height: 50%;
+    border: 2px solid white;
+    background-color: gray;
+    height: 70%;
+    width: 83%;
+    margin-left: 23px; 
+
 }
