@@ -1,53 +1,30 @@
-:root {
-    --default: #1E1014;
-    --tiles: #2E2628;
-    --tiles-alt: #544b4d;
-    --text: white;
-    --subtitle: #95A3B3;
-}
-
 body {
     margin: 0;
-    background-color: var(--default);
-    color: var(--text);
 }
 
-.main {
-    height: 100vh;
-}
-
-.main > div {
+.container {
     display: flex;
-    background-color: var(--tiles);
     flex-wrap: wrap;
     justify-content: space-around;
-    min-height: 60vh;
     align-items: flex-start;
-}
-
-.app {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-basis: 60%;
-    display: grid;
-    grid-template-columns: 15vw 15vw 15vw 15vw;
-    grid-template-rows: 15vw 15vw;
-    color: var(--text);
+    height: 90vh;
+    width: 90vw;
     justify-items: stretch;
     justify-content: center;
+    margin-bottom: 15%;
 }
 
-.sidebar {
+.dashboard {
+    margin-top: 8%;
+    margin-bottom: 8%;
+    background-color: gray;
+    border: 2px solid white;
     display: flex;
     flex-direction: column;
-    width: 35%;
+    width: 13%;
     height: 100%;
-    columns: 15vw;
-    grid-row: 15vw 15vw;
     justify-content: center;
-    align-items: center;
-    background-color: var(--tiles-alt);
+    text-align: left;
 }
 
 ul {
@@ -63,10 +40,10 @@ ul {
     background-color: lightgray;
     margin-top: 8%;
     display: flex;
-    width: 65%;
+    width: 55%;
     height: 100%;
     flex-direction: column;
-    /* padding-left: 30px; */
+    padding-left: 30px;
 }
 
 .stats {
@@ -76,35 +53,43 @@ ul {
     justify-content: space-around;
 }
 
-.reviews {
-    background-color: gray;
-    border: 2px solid white;
-    width: 200px;
-    height: 200px;
-    justify-content: space-between;
-}
-
-.avgrating {
-    background-color: gray;
-    border: 2px solid white;
-    width: 200px;
-    height: 200px;
-    justify-content: space-between;
-}
-
-.sentan {
-    background-color: gray;
-    border: 2px solid white;
-    width: 200px;
-    height: 200px;
-    justify-content: space-between;
-}
-
-.webVisitors {
+.visitors {
     border: 2px solid white;
     background-color: gray;
     height: 70%;
     width: 83%;
     margin-left: 23px; 
 
+}
+
+.info {
+    border: 2px solid white;
+    background-color: white;
+    width: 80%;
+    height: 80%;
+    margin-left: 50px;
+}
+
+.reviews {
+    background-color: gray;
+    border: 2px solid white;
+    width: 155px;
+    height: 200px;
+    justify-content: space-between;
+}
+
+.rate {
+    background-color: gray;
+    border: 2px solid white;
+    width: 155px;
+    height: 200px;
+    justify-content: space-between;
+}
+
+.analysis {
+    background-color: gray;
+    border: 2px solid white;
+    width: 155px;
+    height: 200px;
+    justify-content: space-between;
 }
