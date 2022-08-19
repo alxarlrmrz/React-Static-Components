@@ -1,0 +1,90 @@
+:root {
+    --default: #1E1014;
+    --tiles: #2E2628;
+    --tiles-alt: #544b4d;
+    --text: white;
+    --subtitle: #95A3B3;
+}
+
+body {
+    margin: 0;
+    background-color: var(--default);
+    color: var(--text);
+}
+
+.main {
+    height: 100vh;
+}
+
+.main > div {
+    display: flex;
+    background-color: var(--tiles);
+    flex-wrap: wrap;
+    justify-content: space-around;
+    min-height: 60vh;
+    align-items: flex-start;
+}
+
+.app {
+    height: 100%;
+    width: 100%;
+    /* display: flex;
+    flex-basis: 60%;
+    display: grid;
+    grid-template-columns: 15vw 15vw 15vw 15vw;
+    grid-template-rows: 15vw 15vw;
+    color: var(--text); */
+    justify-items: stretch;
+    justify-content: center;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: 100%;
+    columns: 15vw;
+    grid-row: 15vw 15vw;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--tiles-alt);
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    height: 60%;
+}
+
+.content {
+    display: flex;
+    width: 65%;
+    height: 100%;
+    flex-direction: column;
+    background-color: var(--tiles);
+}
+
+.stats {
+    height: 50%;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+/* .reviews {
+
+}
+
+.avgrating {
+
+}
+
+.sentan {
+
+} */
+
+.webVisitors {
+    height: 50%;
+}
